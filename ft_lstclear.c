@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstclear.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rcurty-g <rcurty-g@student.42.fr>          +#+  +:+       +#+        */
+/*   By: raissacurty <raissacurty@student.42.fr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/12/18 14:19:48 by rcurty-g          #+#    #+#             */
-/*   Updated: 2024/12/18 14:19:49 by rcurty-g         ###   ########.fr       */
+/*   Created: 2024/12/14 23:41:37 by raissacurty       #+#    #+#             */
+/*   Updated: 2024/12/14 23:41:58 by raissacurty      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

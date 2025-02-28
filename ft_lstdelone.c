@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstdelone.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rcurty-g <rcurty-g@student.42.fr>          +#+  +:+       +#+        */
+/*   By: raissacurty <raissacurty@student.42.fr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/12/18 14:19:56 by rcurty-g          #+#    #+#             */
-/*   Updated: 2024/12/18 14:19:57 by rcurty-g         ###   ########.fr       */
+/*   Created: 2024/12/14 23:42:40 by raissacurty       #+#    #+#             */
+/*   Updated: 2024/12/14 23:42:56 by raissacurty      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

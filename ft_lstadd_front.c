@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstadd_front.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rcurty-g <rcurty-g@student.42.fr>          +#+  +:+       +#+        */
+/*   By: raissacurty <raissacurty@student.42.fr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/12/18 14:19:37 by rcurty-g          #+#    #+#             */
-/*   Updated: 2024/12/18 14:19:39 by rcurty-g         ###   ########.fr       */
+/*   Created: 2024/12/14 23:39:13 by raissacurty       #+#    #+#             */
+/*   Updated: 2024/12/14 23:40:41 by raissacurty      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

@@ -1,28 +1,30 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_lstlast.c                                       :+:      :+:    :+:   */
+/*   ft_count_words.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: raissacurty <raissacurty@student.42.fr>    +#+  +:+       +#+        */
+/*   By: rcurty-g <rcurty-g@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/12/14 23:44:52 by raissacurty       #+#    #+#             */
-/*   Updated: 2024/12/14 23:45:12 by raissacurty      ###   ########.fr       */
+/*   Created: 2025/01/09 14:05:43 by rcurty-g          #+#    #+#             */
+/*   Updated: 2025/01/09 14:28:51 by rcurty-g         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
-
-// Return the last node of the list
-// lst    -> The beginning of the list
-// return -> Success (last node)
-
-t_list	*ft_lstlast(t_list *lst)
+int	ft_count_words(char const *s, char c)
 {
-	if (!lst)
-		return (NULL);
-	while (lst->next)
+	int	wordcount;
+
+	wordcount = 0;
+	while (*s)
 	{
-		lst = lst->next;
+		if (*s != c)
+		{
+			wordcount++;
+			while (*s != c && *s)
+				s++;
+		}
+		else
+			s++;
 	}
-	return (lst);
+	return (wordcount);
 }

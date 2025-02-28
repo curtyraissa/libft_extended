@@ -6,7 +6,7 @@
 /*   By: rcurty-g <rcurty-g@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/01 08:06:13 by rcurty-g          #+#    #+#             */
-/*   Updated: 2024/12/18 14:22:52 by rcurty-g         ###   ########.fr       */
+/*   Updated: 2025/02/11 16:29:41 by rcurty-g         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,7 @@ char	*read_file(int fd, char *stash)
 	if (!buffer)
 		return (NULL);
 	bytes_read = 1;
-	while (!ft_strchr(stash, '\n') && bytes_read > 0)
+	while (!ft_strchr_gnl(stash, '\n') && bytes_read > 0)
 	{
 		bytes_read = read(fd, buffer, BUFFER_SIZE);
 		if (bytes_read == -1)
@@ -92,7 +92,7 @@ char	*update_stash(char *stash)
 		free(stash);
 		return (NULL);
 	}
-	new_stash = malloc((ft_strlen(stash) - i + 1) * sizeof(char));
+	new_stash = malloc((strlen_gnl(stash) - i + 1) * sizeof(char));
 	if (!new_stash)
 		return (NULL);
 	i++;
